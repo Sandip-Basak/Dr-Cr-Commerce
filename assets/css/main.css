@@ -1750,3 +1750,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.plus-sign::after {
+  content: "+";
+  margin-left: 2px; /* small space before plus */
+}
